@@ -1,11 +1,15 @@
-
+import Header from "./components/Header";
+import About from "./components/About";
+import Work from "./components/Work";
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      App
-    </div>
+    <body>
+      <Header />
+      <About />
+      <Work />
+    </body>
   );
 }
 
