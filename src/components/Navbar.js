@@ -1,34 +1,32 @@
 import React from 'react';
-import { Link } from 'react-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
+export default function Navbar() {
 
-
-function Navbar() {
     return (
-        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-  <Navbar.Brand href="#home">Erica Roquemore</Navbar.Brand>
-  <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-  <Navbar.Collapse id="responsive-navbar-nav">
-    <Nav className="mr-auto">
-      <Nav.Link href="#about-me">About</Nav.Link>
-      <Nav.Link href="#work">Work</Nav.Link>
-      <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
-        <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-        <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-        <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-        <NavDropdown.Divider />
-        <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
-      </NavDropdown>
-    </Nav>
-    <Nav>
-      <Nav.Link href="#deets">Contact Me</Nav.Link>
-      <Nav.Link eventKey={2} href="#memes">
-        Resume
-      </Nav.Link>
-    </Nav>
-  </Navbar.Collapse>
-</Navbar>
-    );
-}
 
-export default Navbar;
+        <nav className="navbar navbar-expand-lg">
+            <div className="container-fluid">
+                <a className="navbar-brand" href="/">ER</a>
+                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span className="navbar-toggler-icon"></span>
+                </button>
+                <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li className="nav-item">
+                            <a className="nav-link active" aria-current="page" href="#about_me">About Me</a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link" href="#work">Work</a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link" href="#contact_me">Contact Me</a>
+                        </li>
+                    </ul>
+                    
+                </div>
+            </div>
+        </nav>
+    )
+};

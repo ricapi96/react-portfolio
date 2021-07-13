@@ -6,16 +6,16 @@ import watch from '../Assets/images/watch-sensor.png';
 import readme from '../Assets/images/readme-gen.png';
 import '../Assets/css/work.css';
 
-function Work() {
+export default function Work() {
     return (
         
-  <div class="row row-cols-1 row-cols-md-2 g-4">
-    <div class="col">
-      <div class="card bg-dark text-white">
-        <img src={watch} class="card-img-top" alt="..." />
-        <div class="card-body">
-          <h5 class="card-title">The Watch Sensor</h5>
-          <p class="card-text">
+  <div className="row row-cols-1 row-cols-md-2 g-4">
+    <div className="col">
+      <div className="card bg-dark text-white">
+        <img src={watch} className="card-img-top" alt="..." />
+        <div className="card-body">
+          <h5 className="card-title">The Watch Sensor</h5>
+          <p className="card-text">
             This dynamic Website application made with HTML, CSS, and JavaScript
             will allow a user to search for a movie title and get a list of
             movies to select from. Once they have selected a movie, they can
@@ -24,7 +24,7 @@ function Work() {
          
           <a
             href="https://ashak90.github.io/project-01/"
-            class="btn btn-secondary"
+            className="btn btn-secondary"
             role="button"
             >See it here</a
           >
@@ -33,12 +33,12 @@ function Work() {
     </div>
 
     
-    <div class="col">
-      <div class="card bg-dark text-white">
-        <img src={habit} class="card-img-top" alt="..." />
-        <div class="card-body">
-          <h5 class="card-title">Habit Tracker</h5>
-          <p class="card-text">
+    <div className="col">
+      <div className="card bg-dark text-white">
+        <img src={habit} className="card-img-top" alt="..." />
+        <div className="card-body">
+          <h5 className="card-title">Habit Tracker</h5>
+          <p className="card-text">
             This is a Habit Tracker App that allows a user to track their
             habits, either good or bad. Along with Node.js, it uses Express.js
             to create a RESTFUL API, and Handlebars.js as the template engine.
@@ -46,7 +46,7 @@ function Work() {
           </p>
           <a
             href="https://habittracking-app.herokuapp.com/"
-            class="btn btn-secondary"
+            className="btn btn-secondary"
             role="button"
             >See it here</a
           >
@@ -55,18 +55,18 @@ function Work() {
     </div>
 
     
-    <div class="col">
-      <div class="card bg-dark text-white">
-        <img src={note} class="card-img-top" alt="..." />
-        <div class="card-body">
-          <h5 class="card-title">Express Note Taker</h5>
-          <p class="card-text">
+    <div className="col">
+      <div className="card bg-dark text-white">
+        <img src={note} className="card-img-top" alt="..." />
+        <div className="card-body">
+          <h5 className="card-title">Express Note Taker</h5>
+          <p className="card-text">
             This is a note taking application used to write and save notes using
             Express.js. It saves and retrieves note data from a JSON file.
           </p>
           <a
             href="https://taking-notes1.herokuapp.com/"
-            class="btn btn-secondary"
+            className="btn btn-secondary"
             role="button"
             >See it here</a
           >
@@ -75,19 +75,19 @@ function Work() {
     </div>
 
     
-    <div class="col">
-      <div class="card bg-dark text-white">
-        <img src={readme} class="card-img-top" alt="..." />
-        <div class="card-body">
-          <h5 class="card-title">README Generator</h5>
-          <p class="card-text">
+    <div className="col">
+      <div className="card bg-dark text-white">
+        <img src={readme} className="card-img-top" alt="..." />
+        <div className="card-body">
+          <h5 className="card-title">README Generator</h5>
+          <p className="card-text">
             This allows one to quickly and easily create a README file by using
             a command-line application to generate one. This allows the project
             creator to devote more time to working on the project.
           </p>
           <a
             href="https://github.com/ricapi96/readme-generator"
-            class="btn btn-secondary"
+            className="btn btn-secondary"
             role="button"
             >See it here</a
           >
@@ -98,4 +98,3 @@ function Work() {
     );
 }
 
-export default Work;
