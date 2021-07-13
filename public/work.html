@@ -1,18 +1,29 @@
-import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import habit from '../Assets/images/habit.png';
-import note from '../Assets/images/note-taker.png';
-import watch from '../Assets/images/watch-sensor.png';
-import readme from '../Assets/images/readme-gen.png';
-import '../Assets/css/work.css';
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="work.css" />
+    <title>Erica's work</title>
+  </head>
+  <button id="home-btn">Home</button>
+  <h2>ER</h2>
+  <br />
+  <h1>My Work</h1>
+  <hr />
 
-function Work() {
-    return (
-        
+  <!-- The Watch Sensor Card -->
   <div class="row row-cols-1 row-cols-md-2 g-4">
     <div class="col">
       <div class="card bg-dark text-white">
-        <img src={watch} class="card-img-top" alt="..." />
+        <img src="./images/watch-sensor.png" class="card-img-top" alt="..." />
         <div class="card-body">
           <h5 class="card-title">The Watch Sensor</h5>
           <p class="card-text">
@@ -21,7 +32,7 @@ function Work() {
             movies to select from. Once they have selected a movie, they can
             click on it to reveal what platforms that movie is streaming from.
           </p>
-         
+          <!-- <button id="watch-btn">See it here</button> -->
           <a
             href="https://ashak90.github.io/project-01/"
             class="btn btn-secondary"
@@ -32,10 +43,10 @@ function Work() {
       </div>
     </div>
 
-    
+    <!-- The Habit Tracker Card -->
     <div class="col">
       <div class="card bg-dark text-white">
-        <img src={habit} class="card-img-top" alt="..." />
+        <img src="./images/homepage.png" class="card-img-top" alt="..." />
         <div class="card-body">
           <h5 class="card-title">Habit Tracker</h5>
           <p class="card-text">
@@ -54,10 +65,10 @@ function Work() {
       </div>
     </div>
 
-    
+    <!-- Express Note Taker Card -->
     <div class="col">
       <div class="card bg-dark text-white">
-        <img src={note} class="card-img-top" alt="..." />
+        <img src="./images/note-demo3.png" class="card-img-top" alt="..." />
         <div class="card-body">
           <h5 class="card-title">Express Note Taker</h5>
           <p class="card-text">
@@ -74,10 +85,10 @@ function Work() {
       </div>
     </div>
 
-    
+    <!-- README Generator Card -->
     <div class="col">
       <div class="card bg-dark text-white">
-        <img src={readme} class="card-img-top" alt="..." />
+        <img src="./images/readme-preview.png" class="card-img-top" alt="..." />
         <div class="card-body">
           <h5 class="card-title">README Generator</h5>
           <p class="card-text">
@@ -95,7 +106,8 @@ function Work() {
       </div>
     </div>
   </div>
-    );
-}
 
-export default Work;
+  <body>
+    <script src="script.js"></script>
+  </body>
+</html>
