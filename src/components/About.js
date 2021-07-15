@@ -5,7 +5,7 @@ import profile from "../Assets/images/profile.jpg";
 export default function About() {
   return (
     <div className="row">
-      <img src={profile} />
+      <img src={profile} alt="pic of me"/>
       <br />
       <div id="about_me" className="col-md-2 col-sm-12">
         About Me
