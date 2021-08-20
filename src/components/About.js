@@ -20,11 +20,9 @@ export default function About() {
           management. I stayed in that field for 15 years. It taught me how to
           deal with people and develop my soft skills. It wasn't until the
           pandemic hit that I really started to consider a career in Web
-          development. I was hospitalized in July 2020, and once I got home and
-          recovered, I enrolled in a coding bootcamp at Georgia Tech. Also, I
-          went back to school and am earning my BA in Computer Science. I've
-          learned so much in these past six months, and can't wait to start my
-          new career as a Full Stack Web Developer!<br></br>
+          development. I was hospitalized in July 2020, and once I 
+          recovered, I enrolled in a coding bootcamp at Georgia Tech. I also
+          went back to school and am earning my BS in Computer Science. <br></br>
         </p>
       </div>
     </div>
