@@ -8,7 +8,7 @@ export default function Contact() {
             <div id="blank_space2" class="col-md-12 col-sm-12"></div>
 
             <div id="contact_me" class="col-md-2 col-sm-12">
-                Contact Me
+            <h3><u>Contact Me</u></h3>
             </div>
             <div id="contact_info" className="col-md-10 col-sm-12">
                 <div className="card text-white bg-secondary mb-3" style={{ width: '18rem' }}>
