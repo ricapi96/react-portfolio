@@ -5,12 +5,14 @@ import profile from "../Assets/images/profile.jpg";
 export default function About() {
   return (
     <div className="row">
+      
       <img src={profile} alt="pic of me"/>
       <br />
       <div id="about_me" className="col-md-2 col-sm-12">
-        About Me
+      
       </div>
       <div id="middle" className="col-md-10 col-sm-12">
+      <h3><u>About Me</u></h3>
         <p>
           Born and raised in Metro Atlanta, I was just a kid when I became
           interested in computers. However, after high school, I started working

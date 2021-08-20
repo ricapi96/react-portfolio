@@ -11,7 +11,11 @@ export default function Work() {
     <div className="row row-cols-1 row-cols-md-2 g-4">
       <div id="work" className="col">
         {" "}
-        Work
+        
+  <br />
+  <h3><ul>My Work</ul></h3>
+  <hr />
+  <br />
         <div className="card bg-dark text-white">
           <img src={watch} className="card-img-top" alt="..." />
           <div className="card-body">
