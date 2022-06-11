@@ -4,18 +4,9 @@
 
 ## Description
 
-This is my new portfolio. Check out the links to my work.
+This is my portfolio made with React. Check out the links to my work.
 
 
-## License
-
-MIT
-https://opensource.org/licenses/MIT
-
-
-## Badge
-
-[![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 
 
 ## Questions
