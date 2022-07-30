@@ -1,6 +1,6 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import profile from "../Assets/images/profile.jpg";
+import profile from "../Assets/images/profile1.jpg";
 
 export default function About() {
   return (
