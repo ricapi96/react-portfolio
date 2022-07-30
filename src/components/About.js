@@ -12,18 +12,10 @@ export default function About() {
       
       </div>
       <div id="middle" className="col-md-10 col-sm-12">
-      <h3><u>About Me</u></h3>
-        <p>
-          Born and raised in Metro Atlanta, I was just a kid when I became
-          interested in computers. However, after high school, I started working
-          in restaurants, moving my way up from server to bartender, and then to
-          management. I stayed in that field for 15 years. It taught me how to
-          deal with people and develop my soft skills. It wasn't until the
-          pandemic hit that I really started to consider a career in Web
-          development. I was hospitalized in July 2020, and once I 
-          recovered, I enrolled in a coding bootcamp at Georgia Tech. I also
-          went back to school and am earning my BS in Computer Science. <br></br>
-        </p>
+      <h1><u>About Me</u></h1>
+        <h3>
+         I work for 2U teaching Web Development. <br></br>
+        </h3>
       </div>
     </div>
   );
